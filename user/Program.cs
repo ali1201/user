@@ -17,6 +17,7 @@ namespace user
 
       // Create the new user instance.
       User user = new User(username, password);
+      user.email = "test@example.com";
       user.Profail();
     }
   }
