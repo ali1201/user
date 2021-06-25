@@ -15,7 +15,7 @@ class User
     public void Profail()
     {
         Console.WriteLine($"username is : {username}");
-        Console.WriteLine($"password is : {passwoord}********");
+        Console.WriteLine($"password is : {passwoord.Substring(0, 3)}********");
 
         if (email == null)
         {
