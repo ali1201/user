@@ -1,11 +1,11 @@
 ﻿using System;
 
-class Print_useer
+class User
 {
     public string username { set; get; }
     public string passwoord { set; get; }
     public string email;
-    public Print_useer(string u,string p)
+    public User(string u,string p)
     {
         username = u;
         passwoord = p;
